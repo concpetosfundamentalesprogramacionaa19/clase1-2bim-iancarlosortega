@@ -17,7 +17,14 @@ public class ArregloUno {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int[] c = new int[12];
+        int[] arr1 = new int[5];
+        arr1[3] = 20;
+        arr1[1+1] = 5+6;
+        arr1[4] = 10;
+        
+        System.out.printf("%d + %d = %d\n",arr1[1],arr1[4],arr1[1]+arr1[4]);
+        System.out.printf("El tamaño del arreglo es: %d\n",arr1.length);
+        
         
         
     }
